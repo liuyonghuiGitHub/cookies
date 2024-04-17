@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>获取客户端生成的随机 Cookie</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    #cookieDisplay {
+        margin: 50px auto;
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div id="cookieDisplay">
+    <h2>点击按钮生成随机 Cookie 值</h2>
+    <button id="generateCookie">生成 Cookie</button>
+    <p id="cookieValue"></p>
+</div>
+
+<script>
+    document.getElementById('generateCookie').addEventListener('click', function() {
+        const randomCookieValue = generateRandomValue();
+        document.cookie = `randomCookie=${randomCookieValue}`;
+        document.getElementById('cookieValue').innerText = `生成的随机 Cookie 值为：${randomCookieValue}`;
+    });
+
+    // 生成随机的 Cookie 值
+    function generateRandomValue() {
+        return Math.random().toString(36).substring(2, 10);
+    }
+</script>
+</body>
+</html>
