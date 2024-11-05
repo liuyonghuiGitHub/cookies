@@ -10,8 +10,8 @@
       "normal": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon76.png",
       "large": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon1024.png"
     },
-    "minAPIVersion": "4.1.0(11)",
-    "targetAPIVersion": "4.1.0(11)",
+    "minAPIVersion": "5.0.0(12)",
+    "targetAPIVersion": "5.0.0(12)",
     "modules": [
       {
         "name": "entry",
