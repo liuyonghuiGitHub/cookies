@@ -5,7 +5,7 @@
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "label": "企业发布",
-    "deployDomain": "https://github.com",
+    "deployDomain": "github.com",
     "icons": {
       "normal": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon76.png",
       "large": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon1024.png"
