@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.mobilewise.emmtest",
+    "bundleType": "app",
+    "versionCode": 1000000,
+    "versionName": "1.0.0",
+    "label": "企业发布",
+    "deployDomain": "https://github.com",
+    "icons": {
+      "normal": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon76.png",
+      "large": "https://github.com/liuyonghuiGitHub/cookies/blob/main/icon1024.png"
+    },
+    "minAPIVersion": "4.1.0(11)",
+    "targetAPIVersion": "4.1.0(11)",
+    "modules": [
+      {
+        "name": "entry",
+        "type": "entry",
+        "deviceTypes": [
+          "phone"
+        ],
+        "packageUrl": "https://github.com/liuyonghuiGitHub/cookies/blob/main/企业发布.hap",
+        "packageHash": "18689cc77e2d23ec37c91f9c2c8d9e8d5fefaa293849d07f48ade13672ac7a61"
+      }
+    ]
+  }
+}
